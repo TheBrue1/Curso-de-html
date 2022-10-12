@@ -4,7 +4,7 @@
   margin: 0px;
   padding: 0px;
 }
-body,html{
+body{
   background-color: lightgrey;
 }
 header{
@@ -60,6 +60,10 @@ article > h2 {
 
 article > p {
   text-align: justify;
+  padding: right 10px; 
+  padding-left: 10px;
   margin-bottom: 10px;
-  text: indent 20px; ;
+  text-indent:  20px; ;
 }
+
+ 
