@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <header>
         <h1> Meu Site</h1>
-            <menu>
+        <span id="burguer" class="material-icons md-18" onclick="clickMenu()" >menu</span>
+            <menu id="itens" >
                 <ul>
                     <li><a href="#">Opção 1</a></li>
                     <li><a href="#"> Opção 2</a></li>
@@ -18,7 +20,7 @@
                     <li><a href="#"> Opção 4</a></li>
                     <li><a href="#">Opção 5</a></li>
                 </ul>
-           </menu>
+           </menu >
     </header>
          <main>
              <article>
@@ -27,9 +29,17 @@
 
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio sint adipisci, corrupti repellat quia tempora nostrum voluptatum nemo sed ad. Pariatur amet rem asperiores voluptas eligendi similique id rerum maiores! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum itaque culpa ad consequatur sequi numquam? Non qui exercitationem ipsa, iusto ducimus fugiat sint, a vero dolore rerum perferendis mollitia inventore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores beatae officia voluptatum similique optio. Eum deleniti veniam est officia autem. Nisi consectetur odit quo vero exercitationem. Culpa ipsam ipsa laboriosam.</p>
 
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nulla voluptatibus placeat odit iure eum ipsum? Incidunt quaerat veritatis sed beatae maxime velit tempore ipsam explicabo autem dolore, ea minus.</p>
-
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nulla voluptatibus placeat odit iure eum ipsum? Incidunt quaerat veritatis sed beatae maxime velit tempore ipsam explicabo autem dolore, ea minus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora dolore voluptatem unde repudiandae, labore, rerum deleniti quibusdam ipsam veniam debitis fugit? Quam, aliquid veritatis ut dolorem nostrum ipsa adipisci nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias optio maiores iure. Eos, itaque rerum amet quae nesciunt exercitationem eaque provident deserunt excepturi est nostrum expedita reprehenderit voluptas necessitatibus! Voluptas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quo culpa sapiente hic provident amet magnam officia molestiae adipisci perferendis corporis ab iure sequi ad, eaque optio itaque sint commodi? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero necessitatibus, saepe natus id ut ipsum, totam eveniet nihil quidem nobis excepturi tempora doloremque quia harum voluptatibus. Ducimus neque adipisci modi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ipsa debitis, saepe laboriosam, velit ea sunt minus ullam cumque quod incidunt nesciunt molestiae odit nobis aliquam sapiente quia, voluptates porro! </p>
             </article>
          </main>
+             <script>
+              function clickMenu() {
+                  if( itens.style.display =='block') {
+                      itens.style.display = 'none'       
+                 } else {
+                    itens.style.display = 'block'
+                 }
+                }
+             </script>
 </body>
 </html>
