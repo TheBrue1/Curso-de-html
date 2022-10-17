@@ -1,0 +1,25 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: center;
+    background: yellow;
+    height: 640px;
+    width: 640px;
+  
+}
+
+.flex-item {
+    color: white;
+    width: 320px;
+    background: red;
+   
+}
